@@ -16,3 +16,7 @@ To Start
 2. npm install
 3. npm start
 
+
+Todos:
+------
+- none right now, make suggestions on what I should add!
