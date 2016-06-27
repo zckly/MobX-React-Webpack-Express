@@ -10,7 +10,8 @@ Boilerplate written in ES6 for building scalable, reactive applications. The sta
 - Node.js: For the server
 
 
-⋅⋅To start:
+To Start
+------
 1. git clone this repo
 2. npm install
 3. npm start
