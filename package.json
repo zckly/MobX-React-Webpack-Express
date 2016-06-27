@@ -7,7 +7,7 @@
     "start": "node entry.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Zachary Lee",
   "license": "ISC",
   "devDependencies": {
     "babel": "^6.5.1",
@@ -31,7 +31,6 @@
   },
   "dependencies": {
     "classnames": "^2.2.3",
-    "director": "^1.2.8",
     "express": "^4.13.4",
     "mobx": "^2.0.0",
     "mobx-react": "^3.0.0",
