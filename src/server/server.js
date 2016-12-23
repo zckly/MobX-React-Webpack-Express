@@ -1,5 +1,7 @@
 import express from 'express';
 import bodyParser from 'body-parser';
+import logger from 'morgan';
+import compression from 'compression';
 import path from 'path';
 
 import { renderToString } from 'react-dom/server';
@@ -37,7 +39,9 @@ const renderFullPage = html => {
   `
 };
 
+app.use(compression());
 app.use(bodyParser.json());
+app.use(logger('dev'));
 
 //Root
 app.get('/', function(req, res) {
